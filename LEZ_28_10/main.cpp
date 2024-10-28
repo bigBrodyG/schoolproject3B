@@ -1,15 +1,12 @@
 #include <stdio.h>
-#include <iostream>
-using namespace std;
 int e = 0;
 int maxum = 100;
 int main() {
+    printf("Inserisci quante volte ripetere: ");
+    scanf("%d", &maxum);
     for (size_t i = 0; i < (maxum); i++) {
         e++;
-        cout << e;
-        printf(") Oggi ..........");
-        
-        printf("\n");
+        printf("%d) Oggi .......... \n", e);
     }
     return 0;
 }
