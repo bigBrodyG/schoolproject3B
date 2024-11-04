@@ -102,6 +102,7 @@
     "streambuf": "cpp",
     "typeinfo": "cpp",
     "cerrno": "cpp",
-    "climits": "cpp"
+    "climits": "cpp",
+    "MAIN.C": "cpp"
   }
 }
